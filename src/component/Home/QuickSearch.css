@@ -1,0 +1,126 @@
+.QuickSearch{
+    padding: 50px 0; 
+}
+
+.QuickSearch h1{
+    color: #F09649;
+    font-size: 40px;
+}
+
+.QuickSearch h3{
+    color: #00755F;
+    font-size: 30px;
+    line-height: 40%;
+}
+
+.card{
+    width:350px;
+    background-color: #FBF1CA;
+    border-radius: 20px;
+    transition: transform 300ms ease-in-out;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.card img{
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-body{
+    font-size: 25px;
+    font-weight: 600;
+    color: #BD5943;
+}
+
+.card:hover{
+    transform: rotate(3deg);
+}
+
+hr{
+    background-color: #000;
+    border: 20px solid #000;
+}
+
+
+/* Social Links */
+
+.social{
+    padding-block: 30px;
+}
+
+.social p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.social i{
+    font-size: 50px;
+    margin-inline: 15px;
+    transition: 250ms transform ease-in-out;
+}
+
+.fa-facebook-square{
+    color: #3b5998;
+}
+
+.social i:hover{
+    transform: scale(1.1);
+}
+
+.fa-instagram{
+    color: #B62DB4;
+}
+
+.fa-youtube{
+    color:#FF0000;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1200px){
+    .card{
+        width: 300px;
+    }
+}
+
+    /* For Large Devices */
+
+@media screen and (max-width: 978px){
+
+}
+
+            /* For Medium Devices */
+
+            @media screen and (max-width: 768px){
+                .QuickSearch h1{
+                    font-size: 35px;
+                }
+            
+                .QuickSearch h3{
+                    font-size: 28px;
+                }
+            
+                .card{
+                    width: 250px;
+                }
+            
+                .card img{
+                    height: 150px;
+                }
+            
+                .card-body{
+                    font-size: 20px;
+                }
+            }
+
+
+            @media screen and (max-width: 576px){
+            
+                .QuickSearch h1{
+                    font-size: 30px;
+                }
+            
+                .QuickSearch h3{
+                    font-size: 23px;
+                }
+            }

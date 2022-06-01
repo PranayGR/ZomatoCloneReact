@@ -1,0 +1,11 @@
+.RestName{
+    margin-top: 25px;
+    padding: 0.5em;
+    background-color: rgb(156, 45, 45);
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.orderForm{
+    border: 3px solid #9c2d2d;
+}

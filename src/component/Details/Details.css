@@ -1,0 +1,96 @@
+.RestImg{
+    width: min(400px, 100%);
+    height: min(400px, width);
+}
+
+.location, .location1{
+    color: #bbb;
+}
+
+.rating .fas{
+    color: #FFA500;
+}
+
+.rating .restRating{
+    font-weight: bold;
+}
+
+.promises img{
+    width: 100px;
+    height: 100px;
+}
+
+.menuImg{
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.menuPrice{
+    color: grey;
+}
+
+.menuDescription{
+    color: grey;
+}
+
+.oldPrice{
+    font-weight: bold;
+}
+
+.newPrice{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  .stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+  }
+  
+  .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+  }
+
+  .restName1, .location1{
+    visibility:hidden;
+}
+
+  @media screen and (max-width: 978px){
+    .restName, .location{
+        visibility:hidden;
+    }
+    .restName1, .location1{
+        visibility:visible;
+    }
+    .menuDescription{
+        display:none;
+    }
+    .removeItemBtn{
+        width: 35px;
+        height: 35px; 
+    }
+    .addItemBtn{
+        width: 35px;
+        height: 35px;
+    }
+}
