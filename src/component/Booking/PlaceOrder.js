@@ -96,7 +96,7 @@ class PlaceOrder extends Component {
                             <h2>Your Order from <span style={{ textTransform: 'uppercase' }}><b>{this.props.match.params.restName}</b></span></h2>
                         </div>
                         <div className="orderForm container">
-                            <form action="https://developerpayment.herokuapp.com/paynow" method="POST">
+                            <form action="https://zomato-payment.herokuapp.com/paynow" method="POST">
                                 <input type="hidden" name="cost" value={this.state.cost} />
                                 <input type="hidden" name="id" value={this.state.id} />
                                 <input type="hidden" name="hotel_name" value={this.state.rest_name} />
